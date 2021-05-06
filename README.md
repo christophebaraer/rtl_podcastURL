@@ -4,14 +4,5 @@
 
 The RTL Podcast URL provides a new sensor with the URL to the last full-length episode of the "Grosses Têtes" show.
 
-{% if prerelease %}
-### NB!: This is a Beta version!
-
-
-
-{% else %}
-
 Go to [Github](https://github.com/christophebaraer/rtl_podcastURL) for Pre-requisites and Setup Instructions.
-
-{% endif %}
 
