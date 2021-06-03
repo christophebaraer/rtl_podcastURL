@@ -45,7 +45,7 @@ class rtl_PodcastSensor(Entity):
             # the short one such as Fake News, Pepites, Le Livre du Jour, Invité
             # Mystère, etc and break the loop after the first long episode
             # has been found
-            if int(items[i].enclosure['length']) > 100000000 : 
+            if int(items[i].enclosure['length']) > 80000000 : 
                 podcastURL = items[i].enclosure['url']
                 break
 
